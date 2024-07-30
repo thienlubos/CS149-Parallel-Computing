@@ -1,0 +1,21 @@
+## Default init
+[sqrt serial]:          [783.262] ms
+[sqrt ispc]:            [163.194] ms
+[sqrt task ispc]:       [9.405] ms
+                                (4.80x speedup from ISPC)
+                                (83.29x speedup from task ISPC)
+
+## Init the values array to 2.9999f
+[sqrt serial]:          [1563.460] ms
+[sqrt ispc]:            [227.740] ms
+[sqrt task ispc]:       [10.909] ms
+                                (6.87x speedup from ISPC)
+                                (143.32x speedup from task ISPC)
+This requires most iteration but the same for all lanes making zero-mask in SIMD parallelization
+
+## Init the values array to .001f
+[sqrt serial]:          [783.518] ms
+[sqrt ispc]:            [119.589] ms
+[sqrt task ispc]:       [12.705] ms
+                                (6.55x speedup from ISPC)
+                                (61.67x speedup from task ISPC) 

@@ -1,0 +1,2 @@
+https://ispc.github.io/ispc.html
+https://gfxcourses.stanford.edu/cs149/fall20/lecture/progmodels/slide_21#:~:text=Contrary%20to%20threads%2C%20they%20do%20not%20have%20execution,the%20number%20of%20cores%20results%20in%20better%20load-balancing.

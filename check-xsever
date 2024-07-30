@@ -1,0 +1,7 @@
+#/bin/bash
+
+# https://stackoverflow.com/questions/4012889/converting-ppm-to-png
+
+if ! xset q &>/dev/null; then
+    echo "No X server at \$DISPLAY [$DISPLAY]" >&2
+fi

@@ -1,0 +1,310 @@
+[sqrt serial]:		[784.324] ms
+[sqrt ispc]:		[119.371] ms
+[sqrt task ispc]:	[10.043] ms
+[sqrt AVX2]:		[9.886] ms
+				(6.57x speedup from ISPC)
+				(78.10x speedup from task ISPC)
+				(79.34x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[363.065] ms
+[sqrt ispc]:		[61.704] ms
+[sqrt task ispc]:	[6.284] ms
+[sqrt AVX2]:		[9.605] ms
+				(5.88x speedup from ISPC)
+				(57.78x speedup from task ISPC)
+				(37.80x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[296.079] ms
+[sqrt ispc]:		[52.621] ms
+[sqrt task ispc]:	[8.966] ms
+[sqrt AVX2]:		[8.906] ms
+				(5.63x speedup from ISPC)
+				(33.02x speedup from task ISPC)
+				(33.25x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[240.329] ms
+[sqrt ispc]:		[38.343] ms
+[sqrt task ispc]:	[7.592] ms
+[sqrt AVX2]:		[11.362] ms
+				(6.27x speedup from ISPC)
+				(31.65x speedup from task ISPC)
+				(21.15x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[240.470] ms
+[sqrt ispc]:		[38.334] ms
+[sqrt task ispc]:	[6.594] ms
+[sqrt AVX2]:		[8.793] ms
+				(6.27x speedup from ISPC)
+				(36.47x speedup from task ISPC)
+				(27.35x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[183.175] ms
+[sqrt ispc]:		[30.662] ms
+[sqrt task ispc]:	[6.990] ms
+[sqrt AVX2]:		[10.107] ms
+				(5.97x speedup from ISPC)
+				(26.21x speedup from task ISPC)
+				(18.12x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[181.602] ms
+[sqrt ispc]:		[31.144] ms
+[sqrt task ispc]:	[12.116] ms
+[sqrt AVX2]:		[27.661] ms
+				(5.83x speedup from ISPC)
+				(14.99x speedup from task ISPC)
+				(6.57x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[183.602] ms
+[sqrt ispc]:		[31.179] ms
+[sqrt task ispc]:	[10.293] ms
+[sqrt AVX2]:		[15.534] ms
+				(5.89x speedup from ISPC)
+				(17.84x speedup from task ISPC)
+				(11.82x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[133.114] ms
+[sqrt ispc]:		[26.430] ms
+[sqrt task ispc]:	[11.591] ms
+[sqrt AVX2]:		[16.613] ms
+				(5.04x speedup from ISPC)
+				(11.48x speedup from task ISPC)
+				(8.01x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[132.465] ms
+[sqrt ispc]:		[25.712] ms
+[sqrt task ispc]:	[10.919] ms
+[sqrt AVX2]:		[18.229] ms
+				(5.15x speedup from ISPC)
+				(12.13x speedup from task ISPC)
+				(7.27x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[24.725] ms
+[sqrt ispc]:		[17.770] ms
+[sqrt task ispc]:	[10.582] ms
+[sqrt AVX2]:		[16.425] ms
+				(1.39x speedup from ISPC)
+				(2.34x speedup from task ISPC)
+				(1.51x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[133.135] ms
+[sqrt ispc]:		[25.370] ms
+[sqrt task ispc]:	[10.576] ms
+[sqrt AVX2]:		[13.738] ms
+				(5.25x speedup from ISPC)
+				(12.59x speedup from task ISPC)
+				(9.69x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[133.946] ms
+[sqrt ispc]:		[24.495] ms
+[sqrt task ispc]:	[10.140] ms
+[sqrt AVX2]:		[15.291] ms
+				(5.47x speedup from ISPC)
+				(13.21x speedup from task ISPC)
+				(8.76x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[132.848] ms
+[sqrt ispc]:		[24.362] ms
+[sqrt task ispc]:	[9.632] ms
+[sqrt AVX2]:		[15.472] ms
+				(5.45x speedup from ISPC)
+				(13.79x speedup from task ISPC)
+				(8.59x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[183.216] ms
+[sqrt ispc]:		[60.598] ms
+[sqrt task ispc]:	[17.420] ms
+[sqrt AVX2]:		[77.219] ms
+				(3.02x speedup from ISPC)
+				(10.52x speedup from task ISPC)
+				(2.37x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[186.643] ms
+[sqrt ispc]:		[69.788] ms
+[sqrt task ispc]:	[13.076] ms
+[sqrt AVX2]:		[111.602] ms
+				(2.67x speedup from ISPC)
+				(14.27x speedup from task ISPC)
+				(1.67x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[183.277] ms
+[sqrt ispc]:		[30.671] ms
+[sqrt task ispc]:	[9.390] ms
+[sqrt AVX2]:		[13.918] ms
+				(5.98x speedup from ISPC)
+				(19.52x speedup from task ISPC)
+				(13.17x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[182.617] ms
+[sqrt ispc]:		[31.730] ms
+[sqrt task ispc]:	[11.448] ms
+[sqrt AVX2]:		[13.086] ms
+				(5.76x speedup from ISPC)
+				(15.95x speedup from task ISPC)
+				(13.96x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[241.343] ms
+[sqrt ispc]:		[38.925] ms
+[sqrt task ispc]:	[8.683] ms
+[sqrt AVX2]:		[13.855] ms
+				(6.20x speedup from ISPC)
+				(27.80x speedup from task ISPC)
+				(17.42x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[242.251] ms
+[sqrt ispc]:		[38.743] ms
+[sqrt task ispc]:	[11.350] ms
+[sqrt AVX2]:		[17.196] ms
+				(6.25x speedup from ISPC)
+				(21.34x speedup from task ISPC)
+				(14.09x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[241.731] ms
+[sqrt ispc]:		[38.796] ms
+[sqrt task ispc]:	[9.983] ms
+[sqrt AVX2]:		[18.670] ms
+				(6.23x speedup from ISPC)
+				(24.21x speedup from task ISPC)
+				(12.95x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[297.588] ms
+[sqrt ispc]:		[52.835] ms
+[sqrt task ispc]:	[8.275] ms
+[sqrt AVX2]:		[18.091] ms
+				(5.63x speedup from ISPC)
+				(35.96x speedup from task ISPC)
+				(16.45x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[296.572] ms
+[sqrt ispc]:		[52.837] ms
+[sqrt task ispc]:	[11.856] ms
+[sqrt AVX2]:		[13.109] ms
+				(5.61x speedup from ISPC)
+				(25.01x speedup from task ISPC)
+				(22.62x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[297.552] ms
+[sqrt ispc]:		[52.910] ms
+[sqrt task ispc]:	[6.841] ms
+[sqrt AVX2]:		[14.783] ms
+				(5.62x speedup from ISPC)
+				(43.49x speedup from task ISPC)
+				(20.13x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[364.085] ms
+[sqrt ispc]:		[61.697] ms
+[sqrt task ispc]:	[10.061] ms
+[sqrt AVX2]:		[11.228] ms
+				(5.90x speedup from ISPC)
+				(36.19x speedup from task ISPC)
+				(32.43x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[363.990] ms
+[sqrt ispc]:		[61.869] ms
+[sqrt task ispc]:	[9.911] ms
+[sqrt AVX2]:		[11.945] ms
+				(5.88x speedup from ISPC)
+				(36.73x speedup from task ISPC)
+				(30.47x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[430.209] ms
+[sqrt ispc]:		[70.109] ms
+[sqrt task ispc]:	[8.870] ms
+[sqrt AVX2]:		[12.092] ms
+				(6.14x speedup from ISPC)
+				(48.50x speedup from task ISPC)
+				(35.58x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[428.916] ms
+[sqrt ispc]:		[70.034] ms
+[sqrt task ispc]:	[8.959] ms
+[sqrt AVX2]:		[10.103] ms
+				(6.12x speedup from ISPC)
+				(47.88x speedup from task ISPC)
+				(42.45x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[523.462] ms
+[sqrt ispc]:		[81.605] ms
+[sqrt task ispc]:	[9.981] ms
+[sqrt AVX2]:		[18.777] ms
+				(6.41x speedup from ISPC)
+				(52.45x speedup from task ISPC)
+				(27.88x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[687.119] ms
+[sqrt ispc]:		[107.970] ms
+[sqrt task ispc]:	[10.916] ms
+[sqrt AVX2]:		[13.676] ms
+				(6.36x speedup from ISPC)
+				(62.95x speedup from task ISPC)
+				(50.24x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
+[sqrt serial]:		[1572.857] ms
+[sqrt ispc]:		[244.632] ms
+[sqrt task ispc]:	[11.249] ms
+[sqrt AVX2]:		[12.521] ms
+				(6.43x speedup from ISPC)
+				(139.83x speedup from task ISPC)
+				(125.62x speedup from AVX2)
+Value written to file successfully.
+Value written to file successfully.
+Value written to file successfully.
