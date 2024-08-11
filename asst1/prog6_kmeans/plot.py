@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 START_LOGFILE = "./start.log"
-END_LOGFILE = "./end.log"
+END_LOGFILE = "./end_thread.log"
 START_PLOTFILE = "./start.png"
-END_PLOTFILE = "./end.png"
+END_PLOTFILE = "./end_thread.png"
 
 for title, logfile, plotfile in [("Start", START_LOGFILE, START_PLOTFILE), ("End", END_LOGFILE, END_PLOTFILE)]:
 

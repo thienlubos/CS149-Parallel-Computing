@@ -1,0 +1,900 @@
+Running K-means with: numThreads=1, threadType=1
+Reading data.dat...
+Running K-means with: M=1000000, N=100, K=3, epsilon=0.100000
+--------------------------------
+Iteration 0
+[Compute] Thread 0, m = 0, minDist = 5.889476
+[Compute] Thread 1, m = 0, minDist = 5.875328
+[Compute] Thread 2, m = 0, minDist = 5.901000
+[Compute] Thread 2, m = 200000, minDist = 5.988931
+[Compute] Thread 1, m = 200000, minDist = 5.989471
+[Compute] Thread 0, m = 200000, minDist = 6.033053
+[Compute] Thread 2, m = 400000, minDist = 6.162340
+[Compute] Thread 1, m = 400000, minDist = 6.126603
+[Compute] Thread 0, m = 400000, minDist = 6.151631
+[Compute] Thread 2, m = 600000, minDist = 6.382805
+[Compute] Thread 0, m = 600000, minDist = 6.355895
+[Compute] Thread 1, m = 600000, minDist = 6.310504
+[Compute] Thread 0, m = 800000, minDist = 6.634631
+[Compute] Thread 2, m = 800000, minDist = 6.694151
+[Compute] Thread 1, m = 800000, minDist = 6.658286
+[Combine] thread 0, m = 0, minDist = 5.889476
+[Combine] Thread 1, m = 0, minDist = 5.875328
+[Combine] Thread 2, m = 0, minDist = 5.901000
+[Combine] clusterAssignment[0] = 1
+[Combine] thread 0, m = 200000, minDist = 6.033053
+[Combine] Thread 1, m = 200000, minDist = 5.989471
+[Combine] Thread 2, m = 200000, minDist = 5.988931
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 6.151631
+[Combine] Thread 1, m = 400000, minDist = 6.126603
+[Combine] Thread 2, m = 400000, minDist = 6.162340
+[Combine] clusterAssignment[400000] = 1
+[Combine] thread 0, m = 600000, minDist = 6.355895
+[Combine] Thread 1, m = 600000, minDist = 6.310504
+[Combine] Thread 2, m = 600000, minDist = 6.382805
+[Combine] clusterAssignment[600000] = 1
+[Combine] thread 0, m = 800000, minDist = 6.634631
+[Combine] Thread 1, m = 800000, minDist = 6.658286
+[Combine] Thread 2, m = 800000, minDist = 6.694151
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 1
+[Compute] Thread 0, m = 0, minDist = 4.915989
+[Compute] Thread 1, m = 0, minDist = 4.887221
+[Compute] Thread 2, m = 0, minDist = 5.091170
+[Compute] Thread 2, m = 200000, minDist = 5.106772
+[Compute] Thread 0, m = 200000, minDist = 5.500926
+[Compute] Thread 1, m = 200000, minDist = 5.188326
+[Compute] Thread 2, m = 400000, minDist = 5.446724
+[Compute] Thread 0, m = 400000, minDist = 5.415807
+[Compute] Thread 1, m = 400000, minDist = 5.296714
+[Compute] Thread 2, m = 600000, minDist = 5.585293
+[Compute] Thread 0, m = 600000, minDist = 5.643692
+[Compute] Thread 1, m = 600000, minDist = 5.332408
+[Compute] Thread 0, m = 800000, minDist = 5.670740
+[Compute] Thread 2, m = 800000, minDist = 6.148138
+[Compute] Thread 1, m = 800000, minDist = 5.823526
+[Combine] thread 0, m = 0, minDist = 4.915989
+[Combine] Thread 1, m = 0, minDist = 4.887221
+[Combine] Thread 2, m = 0, minDist = 5.091170
+[Combine] clusterAssignment[0] = 1
+[Combine] thread 0, m = 200000, minDist = 5.500926
+[Combine] Thread 1, m = 200000, minDist = 5.188326
+[Combine] Thread 2, m = 200000, minDist = 5.106772
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.415807
+[Combine] Thread 1, m = 400000, minDist = 5.296714
+[Combine] Thread 2, m = 400000, minDist = 5.446724
+[Combine] clusterAssignment[400000] = 1
+[Combine] thread 0, m = 600000, minDist = 5.643692
+[Combine] Thread 1, m = 600000, minDist = 5.332408
+[Combine] Thread 2, m = 600000, minDist = 5.585293
+[Combine] clusterAssignment[600000] = 1
+[Combine] thread 0, m = 800000, minDist = 5.670740
+[Combine] Thread 1, m = 800000, minDist = 5.823526
+[Combine] Thread 2, m = 800000, minDist = 6.148138
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 2
+[Compute] Thread 0, m = 0, minDist = 4.849874
+[Compute] Thread 1, m = 0, minDist = 5.055330
+[Compute] Thread 2, m = 0, minDist = 5.295435
+[Compute] Thread 1, m = 200000, minDist = 5.333855
+[Compute] Thread 0, m = 200000, minDist = 5.611978
+[Compute] Thread 2, m = 200000, minDist = 5.063292
+[Compute] Thread 1, m = 400000, minDist = 5.461282
+[Compute] Thread 0, m = 400000, minDist = 5.438597
+[Compute] Thread 2, m = 400000, minDist = 5.501371
+[Compute] Thread 1, m = 600000, minDist = 5.333553
+[Compute] Thread 0, m = 600000, minDist = 5.855093
+[Compute] Thread 2, m = 600000, minDist = 5.483769
+[Compute] Thread 1, m = 800000, minDist = 5.884114
+[Compute] Thread 0, m = 800000, minDist = 5.640779
+[Compute] Thread 2, m = 800000, minDist = 6.339781
+[Combine] thread 0, m = 0, minDist = 4.849874
+[Combine] Thread 1, m = 0, minDist = 5.055330
+[Combine] Thread 2, m = 0, minDist = 5.295435
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.611978
+[Combine] Thread 1, m = 200000, minDist = 5.333855
+[Combine] Thread 2, m = 200000, minDist = 5.063292
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.438597
+[Combine] Thread 1, m = 400000, minDist = 5.461282
+[Combine] Thread 2, m = 400000, minDist = 5.501371
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.855093
+[Combine] Thread 1, m = 600000, minDist = 5.333553
+[Combine] Thread 2, m = 600000, minDist = 5.483769
+[Combine] clusterAssignment[600000] = 1
+[Combine] thread 0, m = 800000, minDist = 5.640779
+[Combine] Thread 1, m = 800000, minDist = 5.884114
+[Combine] Thread 2, m = 800000, minDist = 6.339781
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 3
+[Compute] Thread 0, m = 0, minDist = 4.829164
+[Compute] Thread 1, m = 0, minDist = 5.234347
+[Compute] Thread 2, m = 0, minDist = 5.346951
+[Compute] Thread 2, m = 200000, minDist = 5.018954
+[Compute] Thread 1, m = 200000, minDist = 5.555249
+[Compute] Thread 0, m = 200000, minDist = 5.567200
+[Compute] Thread 2, m = 400000, minDist = 5.493214
+[Compute] Thread 0, m = 400000, minDist = 5.411476
+[Compute] Thread 1, m = 400000, minDist = 5.665899
+[Compute] Thread 2, m = 600000, minDist = 5.433489
+[Compute] Thread 0, m = 600000, minDist = 5.852616
+[Compute] Thread 1, m = 600000, minDist = 5.476076
+[Compute] Thread 2, m = 800000, minDist = 6.399800
+[Compute] Thread 1, m = 800000, minDist = 5.994872
+[Compute] Thread 0, m = 800000, minDist = 5.651641
+[Combine] thread 0, m = 0, minDist = 4.829164
+[Combine] Thread 1, m = 0, minDist = 5.234347
+[Combine] Thread 2, m = 0, minDist = 5.346951
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.567200
+[Combine] Thread 1, m = 200000, minDist = 5.555249
+[Combine] Thread 2, m = 200000, minDist = 5.018954
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.411476
+[Combine] Thread 1, m = 400000, minDist = 5.665899
+[Combine] Thread 2, m = 400000, minDist = 5.493214
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.852616
+[Combine] Thread 1, m = 600000, minDist = 5.476076
+[Combine] Thread 2, m = 600000, minDist = 5.433489
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.651641
+[Combine] Thread 1, m = 800000, minDist = 5.994872
+[Combine] Thread 2, m = 800000, minDist = 6.399800
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 4
+[Compute] Thread 0, m = 0, minDist = 4.834459
+[Compute] Thread 1, m = 0, minDist = 5.293284
+[Compute] Thread 2, m = 0, minDist = 5.367323
+[Compute] Thread 2, m = 200000, minDist = 5.010075
+[Compute] Thread 0, m = 200000, minDist = 5.536804
+[Compute] Thread 1, m = 200000, minDist = 5.611049
+[Compute] Thread 2, m = 400000, minDist = 5.512069
+[Compute] Thread 1, m = 400000, minDist = 5.732345
+[Compute] Thread 0, m = 400000, minDist = 5.389710
+[Compute] Thread 1, m = 600000, minDist = 5.544805
+[Compute] Thread 2, m = 600000, minDist = 5.405463
+[Compute] Thread 0, m = 600000, minDist = 5.835336
+[Compute] Thread 1, m = 800000, minDist = 6.060647
+[Compute] Thread 2, m = 800000, minDist = 6.451326
+[Compute] Thread 0, m = 800000, minDist = 5.647385
+[Combine] thread 0, m = 0, minDist = 4.834459
+[Combine] Thread 1, m = 0, minDist = 5.293284
+[Combine] Thread 2, m = 0, minDist = 5.367323
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.536804
+[Combine] Thread 1, m = 200000, minDist = 5.611049
+[Combine] Thread 2, m = 200000, minDist = 5.010075
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.389710
+[Combine] Thread 1, m = 400000, minDist = 5.732345
+[Combine] Thread 2, m = 400000, minDist = 5.512069
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.835336
+[Combine] Thread 1, m = 600000, minDist = 5.544805
+[Combine] Thread 2, m = 600000, minDist = 5.405463
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.647385
+[Combine] Thread 1, m = 800000, minDist = 6.060647
+[Combine] Thread 2, m = 800000, minDist = 6.451326
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 5
+[Compute] Thread 0, m = 0, minDist = 4.835029
+[Compute] Thread 1, m = 0, minDist = 5.302276
+[Compute] Thread 2, m = 0, minDist = 5.378933
+[Compute] Thread 0, m = 200000, minDist = 5.523533
+[Compute] Thread 2, m = 200000, minDist = 5.018017
+[Compute] Thread 1, m = 200000, minDist = 5.622075
+[Compute] Thread 1, m = 400000, minDist = 5.739789
+[Compute] Thread 2, m = 400000, minDist = 5.534443
+[Compute] Thread 0, m = 400000, minDist = 5.379182
+[Compute] Thread 1, m = 600000, minDist = 5.576719
+[Compute] Thread 2, m = 600000, minDist = 5.392933
+[Compute] Thread 0, m = 600000, minDist = 5.828930
+[Compute] Thread 1, m = 800000, minDist = 6.071316
+[Compute] Thread 0, m = 800000, minDist = 5.645965
+[Compute] Thread 2, m = 800000, minDist = 6.477705
+[Combine] thread 0, m = 0, minDist = 4.835029
+[Combine] Thread 1, m = 0, minDist = 5.302276
+[Combine] Thread 2, m = 0, minDist = 5.378933
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.523533
+[Combine] Thread 1, m = 200000, minDist = 5.622075
+[Combine] Thread 2, m = 200000, minDist = 5.018017
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.379182
+[Combine] Thread 1, m = 400000, minDist = 5.739789
+[Combine] Thread 2, m = 400000, minDist = 5.534443
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.828930
+[Combine] Thread 1, m = 600000, minDist = 5.576719
+[Combine] Thread 2, m = 600000, minDist = 5.392933
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.645965
+[Combine] Thread 1, m = 800000, minDist = 6.071316
+[Combine] Thread 2, m = 800000, minDist = 6.477705
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 6
+[Compute] Thread 0, m = 0, minDist = 4.834701
+[Compute] Thread 1, m = 0, minDist = 5.301803
+[Compute] Thread 2, m = 0, minDist = 5.379586
+[Compute] Thread 0, m = 200000, minDist = 5.520500
+[Compute] Thread 1, m = 200000, minDist = 5.626232
+[Compute] Thread 2, m = 200000, minDist = 5.021735
+[Compute] Thread 0, m = 400000, minDist = 5.375946
+[Compute] Thread 2, m = 400000, minDist = 5.540770
+[Compute] Thread 1, m = 400000, minDist = 5.740411
+[Compute] Thread 1, m = 600000, minDist = 5.594162
+[Compute] Thread 2, m = 600000, minDist = 5.379298
+[Compute] Thread 0, m = 600000, minDist = 5.826501
+[Compute] Thread 1, m = 800000, minDist = 6.069527
+[Compute] Thread 0, m = 800000, minDist = 5.644869
+[Compute] Thread 2, m = 800000, minDist = 6.481445
+[Combine] thread 0, m = 0, minDist = 4.834701
+[Combine] Thread 1, m = 0, minDist = 5.301803
+[Combine] Thread 2, m = 0, minDist = 5.379586
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520500
+[Combine] Thread 1, m = 200000, minDist = 5.626232
+[Combine] Thread 2, m = 200000, minDist = 5.021735
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375946
+[Combine] Thread 1, m = 400000, minDist = 5.740411
+[Combine] Thread 2, m = 400000, minDist = 5.540770
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826501
+[Combine] Thread 1, m = 600000, minDist = 5.594162
+[Combine] Thread 2, m = 600000, minDist = 5.379298
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644869
+[Combine] Thread 1, m = 800000, minDist = 6.069527
+[Combine] Thread 2, m = 800000, minDist = 6.481445
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 7
+[Compute] Thread 0, m = 0, minDist = 4.834830
+[Compute] Thread 1, m = 0, minDist = 5.301749
+[Compute] Thread 2, m = 0, minDist = 5.378390
+[Compute] Thread 0, m = 200000, minDist = 5.520053
+[Compute] Thread 2, m = 200000, minDist = 5.025397
+[Compute] Thread 1, m = 200000, minDist = 5.629598
+[Compute] Thread 2, m = 400000, minDist = 5.540650
+[Compute] Thread 0, m = 400000, minDist = 5.375183
+[Compute] Thread 1, m = 400000, minDist = 5.743318
+[Compute] Thread 0, m = 600000, minDist = 5.825932
+[Compute] Thread 2, m = 600000, minDist = 5.364040
+[Compute] Thread 1, m = 600000, minDist = 5.608377
+[Compute] Thread 2, m = 800000, minDist = 6.480671
+[Compute] Thread 0, m = 800000, minDist = 5.644725
+[Compute] Thread 1, m = 800000, minDist = 6.066699
+[Combine] thread 0, m = 0, minDist = 4.834830
+[Combine] Thread 1, m = 0, minDist = 5.301749
+[Combine] Thread 2, m = 0, minDist = 5.378390
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520053
+[Combine] Thread 1, m = 200000, minDist = 5.629598
+[Combine] Thread 2, m = 200000, minDist = 5.025397
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375183
+[Combine] Thread 1, m = 400000, minDist = 5.743318
+[Combine] Thread 2, m = 400000, minDist = 5.540650
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.825932
+[Combine] Thread 1, m = 600000, minDist = 5.608377
+[Combine] Thread 2, m = 600000, minDist = 5.364040
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644725
+[Combine] Thread 1, m = 800000, minDist = 6.066699
+[Combine] Thread 2, m = 800000, minDist = 6.480671
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 8
+[Compute] Thread 0, m = 0, minDist = 4.834962
+[Compute] Thread 2, m = 0, minDist = 5.376302
+[Compute] Thread 1, m = 0, minDist = 5.302603
+[Compute] Thread 0, m = 200000, minDist = 5.519986
+[Compute] Thread 2, m = 200000, minDist = 5.029794
+[Compute] Thread 1, m = 200000, minDist = 5.633812
+[Compute] Thread 0, m = 400000, minDist = 5.374898
+[Compute] Thread 1, m = 400000, minDist = 5.747921
+[Compute] Thread 2, m = 400000, minDist = 5.538624
+[Compute] Thread 2, m = 600000, minDist = 5.345741
+[Compute] Thread 0, m = 600000, minDist = 5.825601
+[Compute] Thread 1, m = 600000, minDist = 5.625449
+[Compute] Thread 0, m = 800000, minDist = 5.644767
+[Compute] Thread 2, m = 800000, minDist = 6.479056
+[Compute] Thread 1, m = 800000, minDist = 6.063240
+[Combine] thread 0, m = 0, minDist = 4.834962
+[Combine] Thread 1, m = 0, minDist = 5.302603
+[Combine] Thread 2, m = 0, minDist = 5.376302
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.519986
+[Combine] Thread 1, m = 200000, minDist = 5.633812
+[Combine] Thread 2, m = 200000, minDist = 5.029794
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.374898
+[Combine] Thread 1, m = 400000, minDist = 5.747921
+[Combine] Thread 2, m = 400000, minDist = 5.538624
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.825601
+[Combine] Thread 1, m = 600000, minDist = 5.625449
+[Combine] Thread 2, m = 600000, minDist = 5.345741
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644767
+[Combine] Thread 1, m = 800000, minDist = 6.063240
+[Combine] Thread 2, m = 800000, minDist = 6.479056
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 9
+[Compute] Thread 0, m = 0, minDist = 4.835038
+[Compute] Thread 1, m = 0, minDist = 5.304160
+[Compute] Thread 2, m = 0, minDist = 5.373385
+[Compute] Thread 0, m = 200000, minDist = 5.520107
+[Compute] Thread 1, m = 200000, minDist = 5.639578
+[Compute] Thread 2, m = 200000, minDist = 5.036343
+[Compute] Thread 2, m = 400000, minDist = 5.535303
+[Compute] Thread 1, m = 400000, minDist = 5.754586
+[Compute] Thread 0, m = 400000, minDist = 5.374900
+[Compute] Thread 0, m = 600000, minDist = 5.825362
+[Compute] Thread 1, m = 600000, minDist = 5.649650
+[Compute] Thread 2, m = 600000, minDist = 5.321323
+[Compute] Thread 1, m = 800000, minDist = 6.058898
+[Compute] Thread 0, m = 800000, minDist = 5.644806
+[Compute] Thread 2, m = 800000, minDist = 6.475963
+[Combine] thread 0, m = 0, minDist = 4.835038
+[Combine] Thread 1, m = 0, minDist = 5.304160
+[Combine] Thread 2, m = 0, minDist = 5.373385
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520107
+[Combine] Thread 1, m = 200000, minDist = 5.639578
+[Combine] Thread 2, m = 200000, minDist = 5.036343
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.374900
+[Combine] Thread 1, m = 400000, minDist = 5.754586
+[Combine] Thread 2, m = 400000, minDist = 5.535303
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.825362
+[Combine] Thread 1, m = 600000, minDist = 5.649650
+[Combine] Thread 2, m = 600000, minDist = 5.321323
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644806
+[Combine] Thread 1, m = 800000, minDist = 6.058898
+[Combine] Thread 2, m = 800000, minDist = 6.475963
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 10
+[Compute] Thread 0, m = 0, minDist = 4.835161
+[Compute] Thread 1, m = 0, minDist = 5.307348
+[Compute] Thread 2, m = 0, minDist = 5.369229
+[Compute] Thread 0, m = 200000, minDist = 5.520181
+[Compute] Thread 1, m = 200000, minDist = 5.648684
+[Compute] Thread 2, m = 200000, minDist = 5.048111
+[Compute] Thread 0, m = 400000, minDist = 5.374814
+[Compute] Thread 1, m = 400000, minDist = 5.765593
+[Compute] Thread 2, m = 400000, minDist = 5.531520
+[Compute] Thread 1, m = 600000, minDist = 5.689696
+[Compute] Thread 0, m = 600000, minDist = 5.825119
+[Compute] Thread 2, m = 600000, minDist = 5.284884
+[Compute] Thread 0, m = 800000, minDist = 5.644819
+[Compute] Thread 1, m = 800000, minDist = 6.052030
+[Compute] Thread 2, m = 800000, minDist = 6.471719
+[Combine] thread 0, m = 0, minDist = 4.835161
+[Combine] Thread 1, m = 0, minDist = 5.307348
+[Combine] Thread 2, m = 0, minDist = 5.369229
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520181
+[Combine] Thread 1, m = 200000, minDist = 5.648684
+[Combine] Thread 2, m = 200000, minDist = 5.048111
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.374814
+[Combine] Thread 1, m = 400000, minDist = 5.765593
+[Combine] Thread 2, m = 400000, minDist = 5.531520
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.825119
+[Combine] Thread 1, m = 600000, minDist = 5.689696
+[Combine] Thread 2, m = 600000, minDist = 5.284884
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644819
+[Combine] Thread 1, m = 800000, minDist = 6.052030
+[Combine] Thread 2, m = 800000, minDist = 6.471719
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 11
+[Compute] Thread 0, m = 0, minDist = 4.835326
+[Compute] Thread 1, m = 0, minDist = 5.315858
+[Compute] Thread 2, m = 0, minDist = 5.363625
+[Compute] Thread 0, m = 200000, minDist = 5.520280
+[Compute] Thread 2, m = 200000, minDist = 5.071450
+[Compute] Thread 1, m = 200000, minDist = 5.667503
+[Compute] Thread 2, m = 400000, minDist = 5.527130
+[Compute] Thread 1, m = 400000, minDist = 5.788763
+[Compute] Thread 0, m = 400000, minDist = 5.374875
+[Compute] Thread 2, m = 600000, minDist = 5.223950
+[Compute] Thread 1, m = 600000, minDist = 5.771441
+[Compute] Thread 0, m = 600000, minDist = 5.824850
+[Compute] Thread 1, m = 800000, minDist = 6.041118
+[Compute] Thread 2, m = 800000, minDist = 6.464376
+[Compute] Thread 0, m = 800000, minDist = 5.644782
+[Combine] thread 0, m = 0, minDist = 4.835326
+[Combine] Thread 1, m = 0, minDist = 5.315858
+[Combine] Thread 2, m = 0, minDist = 5.363625
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520280
+[Combine] Thread 1, m = 200000, minDist = 5.667503
+[Combine] Thread 2, m = 200000, minDist = 5.071450
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.374875
+[Combine] Thread 1, m = 400000, minDist = 5.788763
+[Combine] Thread 2, m = 400000, minDist = 5.527130
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.824850
+[Combine] Thread 1, m = 600000, minDist = 5.771441
+[Combine] Thread 2, m = 600000, minDist = 5.223950
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644782
+[Combine] Thread 1, m = 800000, minDist = 6.041118
+[Combine] Thread 2, m = 800000, minDist = 6.464376
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 12
+[Compute] Thread 0, m = 0, minDist = 4.835512
+[Compute] Thread 1, m = 0, minDist = 5.344018
+[Compute] Thread 2, m = 0, minDist = 5.358853
+[Compute] Thread 2, m = 200000, minDist = 5.120820
+[Compute] Thread 1, m = 200000, minDist = 5.709440
+[Compute] Thread 0, m = 200000, minDist = 5.520453
+[Compute] Thread 1, m = 400000, minDist = 5.844358
+[Compute] Thread 2, m = 400000, minDist = 5.527701
+[Compute] Thread 0, m = 400000, minDist = 5.375036
+[Compute] Thread 2, m = 600000, minDist = 5.134025
+[Compute] Thread 1, m = 600000, minDist = 5.952371
+[Compute] Thread 0, m = 600000, minDist = 5.824845
+[Compute] Thread 2, m = 800000, minDist = 6.452346
+[Compute] Thread 1, m = 800000, minDist = 6.029524
+[Compute] Thread 0, m = 800000, minDist = 5.644639
+[Combine] thread 0, m = 0, minDist = 4.835512
+[Combine] Thread 1, m = 0, minDist = 5.344018
+[Combine] Thread 2, m = 0, minDist = 5.358853
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520453
+[Combine] Thread 1, m = 200000, minDist = 5.709440
+[Combine] Thread 2, m = 200000, minDist = 5.120820
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375036
+[Combine] Thread 1, m = 400000, minDist = 5.844358
+[Combine] Thread 2, m = 400000, minDist = 5.527701
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.824845
+[Combine] Thread 1, m = 600000, minDist = 5.952371
+[Combine] Thread 2, m = 600000, minDist = 5.134025
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644639
+[Combine] Thread 1, m = 800000, minDist = 6.029524
+[Combine] Thread 2, m = 800000, minDist = 6.452346
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 13
+[Compute] Thread 0, m = 0, minDist = 4.835465
+[Compute] Thread 1, m = 0, minDist = 5.388463
+[Compute] Thread 2, m = 0, minDist = 5.357150
+[Compute] Thread 1, m = 200000, minDist = 5.757587
+[Compute] Thread 0, m = 200000, minDist = 5.520180
+[Compute] Thread 2, m = 200000, minDist = 5.170777
+[Compute] Thread 2, m = 400000, minDist = 5.532642
+[Compute] Thread 1, m = 400000, minDist = 5.916431
+[Compute] Thread 0, m = 400000, minDist = 5.375161
+[Compute] Thread 0, m = 600000, minDist = 5.825838
+[Compute] Thread 1, m = 600000, minDist = 6.156103
+[Compute] Thread 2, m = 600000, minDist = 5.075971
+[Compute] Thread 0, m = 800000, minDist = 5.644306
+[Compute] Thread 1, m = 800000, minDist = 6.036746
+[Compute] Thread 2, m = 800000, minDist = 6.437247
+[Combine] thread 0, m = 0, minDist = 4.835465
+[Combine] Thread 1, m = 0, minDist = 5.388463
+[Combine] Thread 2, m = 0, minDist = 5.357150
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.520180
+[Combine] Thread 1, m = 200000, minDist = 5.757587
+[Combine] Thread 2, m = 200000, minDist = 5.170777
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375161
+[Combine] Thread 1, m = 400000, minDist = 5.916431
+[Combine] Thread 2, m = 400000, minDist = 5.532642
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.825838
+[Combine] Thread 1, m = 600000, minDist = 6.156103
+[Combine] Thread 2, m = 600000, minDist = 5.075971
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644306
+[Combine] Thread 1, m = 800000, minDist = 6.036746
+[Combine] Thread 2, m = 800000, minDist = 6.437247
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 14
+[Compute] Thread 0, m = 0, minDist = 4.834967
+[Compute] Thread 1, m = 0, minDist = 5.396893
+[Compute] Thread 2, m = 0, minDist = 5.356502
+[Compute] Thread 0, m = 200000, minDist = 5.518760
+[Compute] Thread 1, m = 200000, minDist = 5.765092
+[Compute] Thread 2, m = 200000, minDist = 5.179784
+[Compute] Thread 0, m = 400000, minDist = 5.375335
+[Compute] Thread 2, m = 400000, minDist = 5.530870
+[Compute] Thread 1, m = 400000, minDist = 5.931584
+[Compute] Thread 0, m = 600000, minDist = 5.826019
+[Compute] Thread 1, m = 600000, minDist = 6.187587
+[Compute] Thread 2, m = 600000, minDist = 5.070553
+[Compute] Thread 0, m = 800000, minDist = 5.644307
+[Compute] Thread 1, m = 800000, minDist = 6.040285
+[Compute] Thread 2, m = 800000, minDist = 6.432704
+[Combine] thread 0, m = 0, minDist = 4.834967
+[Combine] Thread 1, m = 0, minDist = 5.396893
+[Combine] Thread 2, m = 0, minDist = 5.356502
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518760
+[Combine] Thread 1, m = 200000, minDist = 5.765092
+[Combine] Thread 2, m = 200000, minDist = 5.179784
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375335
+[Combine] Thread 1, m = 400000, minDist = 5.931584
+[Combine] Thread 2, m = 400000, minDist = 5.530870
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826019
+[Combine] Thread 1, m = 600000, minDist = 6.187587
+[Combine] Thread 2, m = 600000, minDist = 5.070553
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644307
+[Combine] Thread 1, m = 800000, minDist = 6.040285
+[Combine] Thread 2, m = 800000, minDist = 6.432704
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 15
+[Compute] Thread 0, m = 0, minDist = 4.834693
+[Compute] Thread 1, m = 0, minDist = 5.397730
+[Compute] Thread 2, m = 0, minDist = 5.356544
+[Compute] Thread 1, m = 200000, minDist = 5.765874
+[Compute] Thread 0, m = 200000, minDist = 5.518431
+[Compute] Thread 2, m = 200000, minDist = 5.180679
+[Compute] Thread 0, m = 400000, minDist = 5.375713
+[Compute] Thread 1, m = 400000, minDist = 5.933246
+[Compute] Thread 2, m = 400000, minDist = 5.529802
+[Compute] Thread 0, m = 600000, minDist = 5.826189
+[Compute] Thread 1, m = 600000, minDist = 6.189448
+[Compute] Thread 2, m = 600000, minDist = 5.070499
+[Compute] Thread 0, m = 800000, minDist = 5.644263
+[Compute] Thread 1, m = 800000, minDist = 6.040723
+[Compute] Thread 2, m = 800000, minDist = 6.432094
+[Combine] thread 0, m = 0, minDist = 4.834693
+[Combine] Thread 1, m = 0, minDist = 5.397730
+[Combine] Thread 2, m = 0, minDist = 5.356544
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518431
+[Combine] Thread 1, m = 200000, minDist = 5.765874
+[Combine] Thread 2, m = 200000, minDist = 5.180679
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375713
+[Combine] Thread 1, m = 400000, minDist = 5.933246
+[Combine] Thread 2, m = 400000, minDist = 5.529802
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826189
+[Combine] Thread 1, m = 600000, minDist = 6.189448
+[Combine] Thread 2, m = 600000, minDist = 5.070499
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644263
+[Combine] Thread 1, m = 800000, minDist = 6.040723
+[Combine] Thread 2, m = 800000, minDist = 6.432094
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 16
+[Compute] Thread 0, m = 0, minDist = 4.834612
+[Compute] Thread 1, m = 0, minDist = 5.397885
+[Compute] Thread 2, m = 0, minDist = 5.356519
+[Compute] Thread 1, m = 200000, minDist = 5.765994
+[Compute] Thread 0, m = 200000, minDist = 5.518406
+[Compute] Thread 2, m = 200000, minDist = 5.180833
+[Compute] Thread 1, m = 400000, minDist = 5.933524
+[Compute] Thread 0, m = 400000, minDist = 5.375920
+[Compute] Thread 2, m = 400000, minDist = 5.529377
+[Compute] Thread 1, m = 600000, minDist = 6.189691
+[Compute] Thread 2, m = 600000, minDist = 5.070550
+[Compute] Thread 0, m = 600000, minDist = 5.826279
+[Compute] Thread 1, m = 800000, minDist = 6.040733
+[Compute] Thread 0, m = 800000, minDist = 5.644268
+[Compute] Thread 2, m = 800000, minDist = 6.431906
+[Combine] thread 0, m = 0, minDist = 4.834612
+[Combine] Thread 1, m = 0, minDist = 5.397885
+[Combine] Thread 2, m = 0, minDist = 5.356519
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518406
+[Combine] Thread 1, m = 200000, minDist = 5.765994
+[Combine] Thread 2, m = 200000, minDist = 5.180833
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.375920
+[Combine] Thread 1, m = 400000, minDist = 5.933524
+[Combine] Thread 2, m = 400000, minDist = 5.529377
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826279
+[Combine] Thread 1, m = 600000, minDist = 6.189691
+[Combine] Thread 2, m = 600000, minDist = 5.070550
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644268
+[Combine] Thread 1, m = 800000, minDist = 6.040733
+[Combine] Thread 2, m = 800000, minDist = 6.431906
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 17
+[Compute] Thread 0, m = 0, minDist = 4.834582
+[Compute] Thread 1, m = 0, minDist = 5.397923
+[Compute] Thread 2, m = 0, minDist = 5.356514
+[Compute] Thread 0, m = 200000, minDist = 5.518428
+[Compute] Thread 2, m = 200000, minDist = 5.180833
+[Compute] Thread 1, m = 200000, minDist = 5.766026
+[Compute] Thread 0, m = 400000, minDist = 5.376008
+[Compute] Thread 1, m = 400000, minDist = 5.933548
+[Compute] Thread 2, m = 400000, minDist = 5.529242
+[Compute] Thread 0, m = 600000, minDist = 5.826310
+[Compute] Thread 2, m = 600000, minDist = 5.070569
+[Compute] Thread 1, m = 600000, minDist = 6.189754
+[Compute] Thread 0, m = 800000, minDist = 5.644253
+[Compute] Thread 1, m = 800000, minDist = 6.040750
+[Compute] Thread 2, m = 800000, minDist = 6.431852
+[Combine] thread 0, m = 0, minDist = 4.834582
+[Combine] Thread 1, m = 0, minDist = 5.397923
+[Combine] Thread 2, m = 0, minDist = 5.356514
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518428
+[Combine] Thread 1, m = 200000, minDist = 5.766026
+[Combine] Thread 2, m = 200000, minDist = 5.180833
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376008
+[Combine] Thread 1, m = 400000, minDist = 5.933548
+[Combine] Thread 2, m = 400000, minDist = 5.529242
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826310
+[Combine] Thread 1, m = 600000, minDist = 6.189754
+[Combine] Thread 2, m = 600000, minDist = 5.070569
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644253
+[Combine] Thread 1, m = 800000, minDist = 6.040750
+[Combine] Thread 2, m = 800000, minDist = 6.431852
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 18
+[Compute] Thread 0, m = 0, minDist = 4.834579
+[Compute] Thread 2, m = 0, minDist = 5.356498
+[Compute] Thread 1, m = 0, minDist = 5.397937
+[Compute] Thread 1, m = 200000, minDist = 5.766033
+[Compute] Thread 2, m = 200000, minDist = 5.180828
+[Compute] Thread 0, m = 200000, minDist = 5.518438
+[Compute] Thread 0, m = 400000, minDist = 5.376039
+[Compute] Thread 1, m = 400000, minDist = 5.933549
+[Compute] Thread 2, m = 400000, minDist = 5.529194
+[Compute] Thread 1, m = 600000, minDist = 6.189758
+[Compute] Thread 0, m = 600000, minDist = 5.826322
+[Compute] Thread 2, m = 600000, minDist = 5.070581
+[Compute] Thread 1, m = 800000, minDist = 6.040761
+[Compute] Thread 0, m = 800000, minDist = 5.644244
+[Compute] Thread 2, m = 800000, minDist = 6.431833
+[Combine] thread 0, m = 0, minDist = 4.834579
+[Combine] Thread 1, m = 0, minDist = 5.397937
+[Combine] Thread 2, m = 0, minDist = 5.356498
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518438
+[Combine] Thread 1, m = 200000, minDist = 5.766033
+[Combine] Thread 2, m = 200000, minDist = 5.180828
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376039
+[Combine] Thread 1, m = 400000, minDist = 5.933549
+[Combine] Thread 2, m = 400000, minDist = 5.529194
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826322
+[Combine] Thread 1, m = 600000, minDist = 6.189758
+[Combine] Thread 2, m = 600000, minDist = 5.070581
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644244
+[Combine] Thread 1, m = 800000, minDist = 6.040761
+[Combine] Thread 2, m = 800000, minDist = 6.431833
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 19
+[Compute] Thread 0, m = 0, minDist = 4.834571
+[Compute] Thread 1, m = 0, minDist = 5.397942
+[Compute] Thread 2, m = 0, minDist = 5.356496
+[Compute] Thread 1, m = 200000, minDist = 5.766040
+[Compute] Thread 2, m = 200000, minDist = 5.180826
+[Compute] Thread 0, m = 200000, minDist = 5.518443
+[Compute] Thread 1, m = 400000, minDist = 5.933563
+[Compute] Thread 0, m = 400000, minDist = 5.376052
+[Compute] Thread 2, m = 400000, minDist = 5.529164
+[Compute] Thread 1, m = 600000, minDist = 6.189766
+[Compute] Thread 2, m = 600000, minDist = 5.070585
+[Compute] Thread 0, m = 600000, minDist = 5.826329
+[Compute] Thread 0, m = 800000, minDist = 5.644238
+[Compute] Thread 1, m = 800000, minDist = 6.040767
+[Compute] Thread 2, m = 800000, minDist = 6.431822
+[Combine] thread 0, m = 0, minDist = 4.834571
+[Combine] Thread 1, m = 0, minDist = 5.397942
+[Combine] Thread 2, m = 0, minDist = 5.356496
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518443
+[Combine] Thread 1, m = 200000, minDist = 5.766040
+[Combine] Thread 2, m = 200000, minDist = 5.180826
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376052
+[Combine] Thread 1, m = 400000, minDist = 5.933563
+[Combine] Thread 2, m = 400000, minDist = 5.529164
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826329
+[Combine] Thread 1, m = 600000, minDist = 6.189766
+[Combine] Thread 2, m = 600000, minDist = 5.070585
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644238
+[Combine] Thread 1, m = 800000, minDist = 6.040767
+[Combine] Thread 2, m = 800000, minDist = 6.431822
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 20
+[Compute] Thread 0, m = 0, minDist = 4.834565
+[Compute] Thread 1, m = 0, minDist = 5.397949
+[Compute] Thread 2, m = 0, minDist = 5.356492
+[Compute] Thread 1, m = 200000, minDist = 5.766044
+[Compute] Thread 0, m = 200000, minDist = 5.518448
+[Compute] Thread 2, m = 200000, minDist = 5.180822
+[Compute] Thread 1, m = 400000, minDist = 5.933564
+[Compute] Thread 0, m = 400000, minDist = 5.376063
+[Compute] Thread 2, m = 400000, minDist = 5.529146
+[Compute] Thread 1, m = 600000, minDist = 6.189768
+[Compute] Thread 0, m = 600000, minDist = 5.826335
+[Compute] Thread 1, m = 800000, minDist = 6.040766
+[Compute] Thread 2, m = 600000, minDist = 5.070590
+[Compute] Thread 0, m = 800000, minDist = 5.644235
+[Compute] Thread 2, m = 800000, minDist = 6.431813
+[Combine] thread 0, m = 0, minDist = 4.834565
+[Combine] Thread 1, m = 0, minDist = 5.397949
+[Combine] Thread 2, m = 0, minDist = 5.356492
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518448
+[Combine] Thread 1, m = 200000, minDist = 5.766044
+[Combine] Thread 2, m = 200000, minDist = 5.180822
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376063
+[Combine] Thread 1, m = 400000, minDist = 5.933564
+[Combine] Thread 2, m = 400000, minDist = 5.529146
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826335
+[Combine] Thread 1, m = 600000, minDist = 6.189768
+[Combine] Thread 2, m = 600000, minDist = 5.070590
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644235
+[Combine] Thread 1, m = 800000, minDist = 6.040766
+[Combine] Thread 2, m = 800000, minDist = 6.431813
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 21
+[Compute] Thread 0, m = 0, minDist = 4.834565
+[Compute] Thread 1, m = 0, minDist = 5.397949
+[Compute] Thread 2, m = 0, minDist = 5.356489
+[Compute] Thread 1, m = 200000, minDist = 5.766047
+[Compute] Thread 0, m = 200000, minDist = 5.518449
+[Compute] Thread 2, m = 200000, minDist = 5.180823
+[Compute] Thread 1, m = 400000, minDist = 5.933566
+[Compute] Thread 0, m = 400000, minDist = 5.376066
+[Compute] Thread 2, m = 400000, minDist = 5.529138
+[Compute] Thread 1, m = 600000, minDist = 6.189772
+[Compute] Thread 0, m = 600000, minDist = 5.826338
+[Compute] Thread 2, m = 600000, minDist = 5.070590
+[Compute] Thread 1, m = 800000, minDist = 6.040766
+[Compute] Thread 0, m = 800000, minDist = 5.644237
+[Compute] Thread 2, m = 800000, minDist = 6.431804
+[Combine] thread 0, m = 0, minDist = 4.834565
+[Combine] Thread 1, m = 0, minDist = 5.397949
+[Combine] Thread 2, m = 0, minDist = 5.356489
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518449
+[Combine] Thread 1, m = 200000, minDist = 5.766047
+[Combine] Thread 2, m = 200000, minDist = 5.180823
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376066
+[Combine] Thread 1, m = 400000, minDist = 5.933566
+[Combine] Thread 2, m = 400000, minDist = 5.529138
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826338
+[Combine] Thread 1, m = 600000, minDist = 6.189772
+[Combine] Thread 2, m = 600000, minDist = 5.070590
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644237
+[Combine] Thread 1, m = 800000, minDist = 6.040766
+[Combine] Thread 2, m = 800000, minDist = 6.431804
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 22
+[Compute] Thread 0, m = 0, minDist = 4.834563
+[Compute] Thread 1, m = 0, minDist = 5.397955
+[Compute] Thread 2, m = 0, minDist = 5.356487
+[Compute] Thread 0, m = 200000, minDist = 5.518445
+[Compute] Thread 1, m = 200000, minDist = 5.766056
+[Compute] Thread 2, m = 200000, minDist = 5.180825
+[Compute] Thread 1, m = 400000, minDist = 5.933573
+[Compute] Thread 0, m = 400000, minDist = 5.376068
+[Compute] Thread 2, m = 400000, minDist = 5.529132
+[Compute] Thread 0, m = 600000, minDist = 5.826338
+[Compute] Thread 1, m = 600000, minDist = 6.189777
+[Compute] Thread 2, m = 600000, minDist = 5.070592
+[Compute] Thread 2, m = 800000, minDist = 6.431800
+[Compute] Thread 1, m = 800000, minDist = 6.040768
+[Compute] Thread 0, m = 800000, minDist = 5.644238
+[Combine] thread 0, m = 0, minDist = 4.834563
+[Combine] Thread 1, m = 0, minDist = 5.397955
+[Combine] Thread 2, m = 0, minDist = 5.356487
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518445
+[Combine] Thread 1, m = 200000, minDist = 5.766056
+[Combine] Thread 2, m = 200000, minDist = 5.180825
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376068
+[Combine] Thread 1, m = 400000, minDist = 5.933573
+[Combine] Thread 2, m = 400000, minDist = 5.529132
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826338
+[Combine] Thread 1, m = 600000, minDist = 6.189777
+[Combine] Thread 2, m = 600000, minDist = 5.070592
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644238
+[Combine] Thread 1, m = 800000, minDist = 6.040768
+[Combine] Thread 2, m = 800000, minDist = 6.431800
+[Combine] clusterAssignment[800000] = 0
+--------------------------------
+Iteration 23
+[Compute] Thread 0, m = 0, minDist = 4.834562
+[Compute] Thread 1, m = 0, minDist = 5.397955
+[Compute] Thread 2, m = 0, minDist = 5.356485
+[Compute] Thread 1, m = 200000, minDist = 5.766056
+[Compute] Thread 2, m = 200000, minDist = 5.180825
+[Compute] Thread 0, m = 200000, minDist = 5.518446
+[Compute] Thread 1, m = 400000, minDist = 5.933573
+[Compute] Thread 2, m = 400000, minDist = 5.529128
+[Compute] Thread 2, m = 600000, minDist = 5.070593
+[Compute] Thread 1, m = 600000, minDist = 6.189777
+[Compute] Thread 0, m = 400000, minDist = 5.376070
+[Compute] Thread 0, m = 600000, minDist = 5.826340
+[Compute] Thread 1, m = 800000, minDist = 6.040768
+[Compute] Thread 2, m = 800000, minDist = 6.431796
+[Compute] Thread 0, m = 800000, minDist = 5.644237
+[Combine] thread 0, m = 0, minDist = 4.834562
+[Combine] Thread 1, m = 0, minDist = 5.397955
+[Combine] Thread 2, m = 0, minDist = 5.356485
+[Combine] clusterAssignment[0] = 0
+[Combine] thread 0, m = 200000, minDist = 5.518446
+[Combine] Thread 1, m = 200000, minDist = 5.766056
+[Combine] Thread 2, m = 200000, minDist = 5.180825
+[Combine] clusterAssignment[200000] = 2
+[Combine] thread 0, m = 400000, minDist = 5.376070
+[Combine] Thread 1, m = 400000, minDist = 5.933573
+[Combine] Thread 2, m = 400000, minDist = 5.529128
+[Combine] clusterAssignment[400000] = 0
+[Combine] thread 0, m = 600000, minDist = 5.826340
+[Combine] Thread 1, m = 600000, minDist = 6.189777
+[Combine] Thread 2, m = 600000, minDist = 5.070593
+[Combine] clusterAssignment[600000] = 2
+[Combine] thread 0, m = 800000, minDist = 5.644237
+[Combine] Thread 1, m = 800000, minDist = 6.040768
+[Combine] Thread 2, m = 800000, minDist = 6.431796
+[Combine] clusterAssignment[800000] = 0
+[Total Time]: computeAssignments() 		 97.397 ms
+[Total Time]: computeCentroids()   		 42.162 ms
+[Total Time]: computeCost()        		 63.707 ms
+Value numThreads 3 written to file successfully.
+Value computeAssignments() 97.3974 written to file successfully.
+Value computeCentroids() 97.3974 written to file successfully.
+Value computeCost() 97.3974 written to file successfully.
+Value Total Time 203.266 written to file successfully.
+[Total Time]: 4895.157 ms

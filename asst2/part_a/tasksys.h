@@ -2,6 +2,10 @@
 #define _TASKSYS_H
 
 #include "itasksys.h"
+#include <mutex>
+#include <thread>
+#include <condition_variable>
+#include <stdio.h>
 
 /*
  * TaskSystemSerial: This class is the student's implementation of a
@@ -19,6 +23,19 @@ class TaskSystemSerial: public ITaskSystem {
         void sync();
 };
 
+class Tasks {
+    public:
+        Tasks();
+        ~Tasks();
+        IRunnable *runnable;
+        int num_total_tasks;
+        int num_completed_tasks;
+        int num_remaining_tasks;
+        std::mutex *mutex;
+        std::mutex *finished_mutex;
+        std::condition_variable *finished;
+};
+
 /*
  * TaskSystemParallelSpawn: This class is the student's implementation of a
  * parallel task execution engine that spawns threads in every run()
@@ -34,6 +51,10 @@ class TaskSystemParallelSpawn: public ITaskSystem {
         TaskID runAsyncWithDeps(IRunnable* runnable, int num_total_tasks,
                                 const std::vector<TaskID>& deps);
         void sync();
+    private:
+        int num_threads;
+        std::thread *threads;
+        void threadFunc(IRunnable* runnable, int num_total_tasks, std::mutex* mutex, int* counter);
 };
 
 /*
@@ -51,6 +72,12 @@ class TaskSystemParallelThreadPoolSpinning: public ITaskSystem {
         TaskID runAsyncWithDeps(IRunnable* runnable, int num_total_tasks,
                                 const std::vector<TaskID>& deps);
         void sync();
+    private:
+        Tasks *tasks;
+        int num_threads;
+        std::thread *threads;
+        bool done;
+        void threadFunc();
 };
 
 /*
@@ -68,6 +95,14 @@ class TaskSystemParallelThreadPoolSleeping: public ITaskSystem {
         TaskID runAsyncWithDeps(IRunnable* runnable, int num_total_tasks,
                                 const std::vector<TaskID>& deps);
         void sync();
+    private:
+        Tasks *tasks;
+        int num_threads;
+        std::thread *threads;
+        bool done;
+        std::mutex *has_tasks_mutex;
+        std::condition_variable *has_tasks;
+        void threadFunc();
 };
 
 #endif

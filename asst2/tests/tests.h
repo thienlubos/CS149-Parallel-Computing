@@ -623,6 +623,7 @@ TestResults pingPongTest(ITaskSystem* t, bool equal_work, bool do_async,
             if (i > 0) {
                 deps.push_back(prev_task_id);
             }
+            // printf("Running task %d\n", i);
             prev_task_id = t->runAsyncWithDeps(
                 runnables[i], num_tasks, deps);
         } else {

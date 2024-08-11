@@ -39,11 +39,10 @@ LIST_OF_IMPLEMENTATIONS_ORIG = [
 ]
 
 AUTHORS = ["STUDENT", "REFERENCE"]
-
 LIST_OF_IMPLEMENTATIONS = [
     "[Serial]",
-    "[Parallel + Always Spawn]",
-    "[Parallel + Thread Pool + Spin]",
+    # "[Parallel + Always Spawn]",
+    # "[Parallel + Thread Pool + Spin]",
     "[Parallel + Thread Pool + Sleep]",
 ]
 
@@ -112,6 +111,8 @@ if __name__ == '__main__':
                             x[0] for x in LIST_OF_TESTS]))
     parser.add_argument('-a', '--run_async', action='store_true',
                         help='Run async tests')
+    parser.add_argument('-oa', '--run_only_async', action='store_true',
+                        help='Run async tests')
 
     args = parser.parse_args()
 
@@ -127,8 +128,9 @@ if __name__ == '__main__':
             num_threads = args.num_threads
         else:
             num_threads = x[1]
-        test_names_and_num_threads.append( (x[0], num_threads) )
-        if args.run_async:
+        if (not args.run_only_async):
+            test_names_and_num_threads.append( (x[0], num_threads) )
+        if (args.run_async or args.run_only_async):
             test_names_and_num_threads.append( (x[0] + "_async", num_threads) )
 
     print("==============================================================="

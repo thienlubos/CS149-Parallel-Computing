@@ -168,11 +168,12 @@ int main(int argc, char** argv)
 
                 // Create a new task system
                 ITaskSystem *t = selectTaskSystemRefImpl(num_threads, (TaskSystemType) i);
-
+                
                 // Run test
                 TestResults result = test[test_id](t);
 
                 // Check that the test result was correct
+
                 if (!result.passed) {
                     printf("ERROR: Results did not pass correctness check! (iter=%d, ref_impl=%s)\n",
                         j, t->name());
@@ -183,10 +184,11 @@ int main(int argc, char** argv)
 
                 // TODO: do this better
                 if( j+1 == num_timing_iterations) {
-                    printf("[%s]:\t\t[%.3f] ms\n", t->name(), minT * 1000);
+                    printf("[%s]: \t\t[%.3f] ms\n", t->name(), minT * 1000);
                 }
 
                 // Shutdown task system so each timing run is from a clean start
+                printf("Result is passed?: %d\n", result.passed);
                 delete t;
             }
         }

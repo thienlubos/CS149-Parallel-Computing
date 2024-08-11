@@ -21,7 +21,7 @@ clean:
 OBJS=$(PPM_OBJ) $(OBJDIR)/tasksys.o
 
 $(APP_NAME): clean dirs $(OBJS)
-	$(CXX) ../tests/main.cpp $(CXXFLAGS) -o $@ $(OBJDIR)/tasksys.o -lm -lpthread
+	$(CXX) ../tests/main.cpp $(CXXFLAGS) -o $@ $(OBJDIR)/tasksys.o -lm -lpthread 
 
 $(OBJDIR)/%.o: $(COMMONDIR)/%.cpp
 	$(CXX) $< $(CXXFLAGS) -c -o $@

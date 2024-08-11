@@ -1,0 +1,94 @@
+================================================================================
+Running task system grading harness... (11 total tests)
+  - Detected CPU with 12 execution contexts
+  - Task system configured to use at most 16 threads
+================================================================================
+================================================================================
+Executing test: super_super_light_async...
+Reference binary: ./runtasks_ref_linux
+Results for: super_super_light_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                3.398     3.432       0.99  (OK)
+[Parallel + Thread Pool + Sleep]        32.439    59.6        0.54  (OK)
+================================================================================
+Executing test: super_light_async...
+Reference binary: ./runtasks_ref_linux
+Results for: super_light_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                44.019    43.505      1.01  (OK)
+[Parallel + Thread Pool + Sleep]        52.217    40.475      1.29  (NOT OK)
+================================================================================
+Executing test: ping_pong_equal_async...
+Reference binary: ./runtasks_ref_linux
+Results for: ping_pong_equal_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                675.96    678.904     1.00  (OK)
+[Parallel + Thread Pool + Sleep]        221.684   250.523     0.88  (OK)
+================================================================================
+Executing test: ping_pong_unequal_async...
+Reference binary: ./runtasks_ref_linux
+Results for: ping_pong_unequal_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                1284.514  1301.403    0.99  (OK)
+[Parallel + Thread Pool + Sleep]        404.532   345.513     1.17  (OK)
+================================================================================
+Executing test: recursive_fibonacci_async...
+Reference binary: ./runtasks_ref_linux
+Results for: recursive_fibonacci_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                675.528   1116.64     0.60  (OK)
+[Parallel + Thread Pool + Sleep]        194.207   263.648     0.74  (OK)
+================================================================================
+Executing test: math_operations_in_tight_for_loop_async...
+Reference binary: ./runtasks_ref_linux
+Results for: math_operations_in_tight_for_loop_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                378.76    387.778     0.98  (OK)
+[Parallel + Thread Pool + Sleep]        315.298   302.205     1.04  (OK)
+================================================================================
+Executing test: math_operations_in_tight_for_loop_fewer_tasks_async...
+Reference binary: ./runtasks_ref_linux
+Results for: math_operations_in_tight_for_loop_fewer_tasks_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                372.534   380.462     0.98  (OK)
+[Parallel + Thread Pool + Sleep]        351.593   128.922     2.73  (NOT OK)
+================================================================================
+Executing test: math_operations_in_tight_for_loop_fan_in_async...
+Reference binary: ./runtasks_ref_linux
+Results for: math_operations_in_tight_for_loop_fan_in_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                197.92    198.051     1.00  (OK)
+[Parallel + Thread Pool + Sleep]        109.086   70.875      1.54  (NOT OK)
+================================================================================
+Executing test: math_operations_in_tight_for_loop_reduction_tree_async...
+Reference binary: ./runtasks_ref_linux
+Command './runtasks -n 16 math_operations_in_tight_for_loop_reduction_tree_async' returned non-zero exit status 139.
+STUDENT solution failed correctness check!
+Command './runtasks -n 16 math_operations_in_tight_for_loop_reduction_tree_async' returned non-zero exit status 139.
+STUDENT solution failed correctness check!
+Command './runtasks -n 16 math_operations_in_tight_for_loop_reduction_tree_async' returned non-zero exit status 139.
+STUDENT solution failed correctness check!
+Command './runtasks -n 16 math_operations_in_tight_for_loop_reduction_tree_async' returned non-zero exit status 139.
+STUDENT solution failed correctness check!
+Command './runtasks -n 16 math_operations_in_tight_for_loop_reduction_tree_async' returned non-zero exit status 139.
+STUDENT solution failed correctness check!
+Results for: math_operations_in_tight_for_loop_reduction_tree_async
+                                        STUDENT   REFERENCE   PERF?
+================================================================================
+Executing test: spin_between_run_calls_async...
+Reference binary: ./runtasks_ref_linux
+Results for: spin_between_run_calls_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                240.59    399.741     0.60  (OK)
+[Parallel + Thread Pool + Sleep]        183.792   228.59      0.80  (OK)
+================================================================================
+Executing test: mandelbrot_chunked_async...
+Reference binary: ./runtasks_ref_linux
+Results for: mandelbrot_chunked_async
+                                        STUDENT   REFERENCE   PERF?
+[Serial]                                295.288   294.395     1.00  (OK)
+[Parallel + Thread Pool + Sleep]        43.322    36.351      1.19  (OK)
+================================================================================
+Overall performance results
+[Serial]                                : All passed Perf
+[Parallel + Thread Pool + Sleep]        : Perf did not pass all tests
